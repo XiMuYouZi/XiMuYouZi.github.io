@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta property="al:ios:url" content="ownbank://v.ownbank.com.ph/5006?key1=123&key2=333" />
+  <meta property="al:ios:app_store_id" content="1623288463" />
+  <meta property="al:ios:app_name" content="OwnBank" />
+  <meta property="al:android:url" content="ownbank://v.ownbank.com.ph/5006?key1=123&key2=333" />
+  <meta property="al:android:app_name" content="OwnBank" />
+  <meta property="al:android:package" content="com.finance.ownbank.dev" />
+</head>
+<body>
+  <div>
+    <h1>测试页面</h1>
+    <button onclick="jump()">打开或下载app</button>
+  </div>
+  <script>
+    const url = "https://app.adjust.com/7r4sm95_hoi9oo7?deeplink=ownbanck://v.ownbank.com.ph/7000?url=https://m.ownbank.com.ph/growth-publish/main/1?hideTopBar=1";
+    window.location.href = url;
+    setTimeout(() => {
+      window.location.href = url;
+    }, 2000);
+    function jump() {
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>
